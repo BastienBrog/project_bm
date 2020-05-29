@@ -7,3 +7,5 @@ element.innerHTML =
 ${moment("2020 04 27, 8:00:00 am", "YYYY MM DD, h:mm:ss a")
  .fromNow()}`;
 document.body.appendChild(element);
+
+import './src/style.css'
