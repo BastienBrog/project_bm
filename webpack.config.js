@@ -24,7 +24,6 @@ plugins: [
  }),
  new MiniCssExtractPlugin(),
  new CleanWebpackPlugin(),
-
 ];
 
 const path = require('path');
