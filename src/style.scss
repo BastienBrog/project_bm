@@ -1,0 +1,121 @@
+body#connexion{
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	background-image: url("img/forest.png");
+	background-position: center; 
+	color: #1a1a1a;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+
+.connexion_section{
+	height: 55%;
+	width: 25%;
+	background: #fefefe;
+	margin: auto;
+	position: relative;
+}
+h2{
+	letter-spacing: 1px;
+	font-size: 2.2rem;
+	margin-left: 15%;
+	font-weight: 300;
+	margin-top: 12%;
+	padding-bottom: 8%;
+}
+input{
+	width: 70%;
+	height: 6%;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	margin-top: 1%;
+	align-content: center;
+	background: transparent;
+	border:0;
+    border-bottom: 1px solid #b3b3b3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+input:focus{
+	border-bottom: 1px solid #1d1d1d;
+	outline:none;
+}
+label{
+	margin-left: 15%;
+	font-size: 14px;
+	color: grey;
+	letter-spacing: 1px;
+}
+button{
+	font-size: 16px;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #3E5B25;
+	transition: 0.2s;
+}
+a:hover{
+	transition: 0.3s;
+	color: #2E8B57;
+}
+.forgot{
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	display: flex;
+}
+#forgot{
+	font-size: 12px;
+	margin: auto;
+	text-align: right;
+	margin-right: 0;
+}
+.login{
+	width: 100%;
+	display: flex;
+	height: auto;
+	margin-top: 12%;
+}
+#login{
+	text-align: center;
+	width: 50%;
+	background: #6a6a6a;
+	color: #fefefe;
+	margin: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	transition: 0.2s;
+}
+#login:hover{
+	transition: 0.3s;
+	background: #3E5B25;
+}
+.pasdecompte{
+	width: 100%;
+	display: flex;
+	margin-top: 2%;
+}
+.pasdecompte p{
+	margin: auto;
+	font-size: 13px;
+}
+.message{
+	width: 100%;
+	height: auto;
+	display: flex;
+	margin-top: 3%;
+}
+.message p{
+	margin: auto;
+}
+#messageok{
+	display: none;
+	color: green;
+}
+#messageerror{
+	display: none;
+	color: red;
+}
+}

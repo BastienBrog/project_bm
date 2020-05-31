@@ -1,0 +1,74 @@
+body#mdpoublie{
+	margin: 0;
+	color: #1a1a1a;
+
+.connexion{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+.background{
+	height: 100%;
+	width: 25%;
+	background-image: url("img/forest.png");
+	background-position: center;
+}
+
+.content{
+	height: 100%;
+	width: 75%;
+	background: #fefefe;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	letter-spacing: 1px;
+	font-size: 3rem;
+	font-weight: 300;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+input{
+	width: 40%;
+	height: 6%;
+	margin-right: 15%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	align-content: center;
+	background: transparent;
+	border:0;
+    border-bottom: 1px solid #b3b3b3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+input:focus{
+	border-bottom: 1px solid #1d1d1d;
+	outline:none;
+}
+label{
+	margin-left: 10%;
+	font-size: 20px;
+	color: grey;
+	letter-spacing: 1px;
+}
+button{
+	text-align: center;
+	width: 20%;
+	background: #6a6a6a;
+	color: #fefefe;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: 0.2s;
+	border: none;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 20%;
+	letter-spacing: 1px;
+}
+button:hover{
+	transition: 0.3s;
+	background: #3E5B25;
+	cursor: pointer;
+}
+}

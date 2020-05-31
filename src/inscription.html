@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+</head>
+<body id="inscription">
+	<div class="container_all">
+		<section class="step_1">
+			<h1>Inscription</h1>
+			<label>adresse e-mail</label><br>
+			<input type="email" name="mail" required><br>
+			<label>confirmez votre adresse e-mail</label><br>
+			<input type="text" name="confirm_mail" required><br>
+			<button id="suivantone">Suivant</button>
+		</section>
+
+		<section class="step_2">
+			<h1>Inscription</h1>
+			<label>mot de passe</label><br>
+			<input type="password" name="password" required><br>
+			<label>confirmez votre mot de passe</label><br>
+			<input type="password" name="confirm_password" required><br>
+			<div class="divbutton">
+				<button id="retourone">Retour</button>
+				<button id="suivanttwo">Suivant</button>
+			</div>		
+		</section>
+
+		<section class="step_3">
+			<h1>Inscription</h1>
+			<div class="nom_prenom">
+				<div class="nom">
+					<label>nom</label><br>
+					<input type="text" name="nom" required>
+				</div>
+				<div class="prenom">
+					<label>prénom</label><br>
+					<input type="text" name="prenom" required>
+				</div>
+			</div>
+			<div class="username">
+				<label>nom d'utilisateur</label><br>
+				<input type="text" name="user" required>
+			</div>
+			<div class="birthdate">
+				<label>date de naissance</label><br>
+				<input type="date" name="date">
+			</div>
+			<div class="phone">
+				<label>numéro de téléphone</label><br>
+				<input type="tel">
+			</div>	
+			<div class="divbutton">
+				<button id="retourtwo">Retour</button>
+				<button type="submit" id="suivantthree">Confirmer</button>
+			</div>
+		</section>
+
+		<section class="finish">
+			<h1>Félicitation</h1>
+			<p id="ok">Votre compte à été crée, <a href="connexion.html">retour à la page de connexion</a></p>
+		</section>
+	</div>
+</body>
+</html>

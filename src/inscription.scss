@@ -1,0 +1,164 @@
+body#inscription{
+	margin: 0;
+	color: #1a1a1a;
+
+.container_all{
+	display: flex;
+	background-image: url("img/forest.png");
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+.step_1, .step_2, .step_3{
+	height: 100vh;
+	width: 75%;
+	background: #fefefe;
+	font-family: 'Montserrat', sans-serif;
+}
+.step_2{
+	display: none;
+	transition: 0.5s;
+}
+.step_3{
+	display: none;
+	transition: 0.5s;
+}
+h1{
+	letter-spacing: 1px;
+	font-size: 3rem;
+	font-weight: 300;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-bottom: 4%;
+}
+input{
+	width: 40%;
+	height: 6%;
+	margin-right: 15%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	align-content: center;
+	background: transparent;
+	border:0;
+    border-bottom: 1px solid #b3b3b3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+input:focus{
+	border-bottom: 1px solid #1d1d1d;
+	outline:none;
+}
+label{
+	margin-left: 10%;
+	font-size: 20px;
+	color: grey;
+	letter-spacing: 1px;
+}
+button{
+	text-align: center;
+	width: 20%;
+	background: #6a6a6a;
+	color: #fefefe;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: 0.2s;
+	border: none;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 20%;
+	letter-spacing: 1px;
+}
+button:hover{
+	transition: 0.3s;
+	background: #3E5B25;
+	cursor: pointer;
+}
+.nom_prenom{
+	display: flex;
+	margin-left: 10%;
+}
+.nom, .prenom{
+	display: block;
+	width: 30%;
+	height: auto;
+}
+.nom label{
+	margin-left: 0;
+}
+.nom input{
+	margin-left: 0;
+	width: 100%;
+	height: 60%;
+	font-size: 18px;
+}
+.prenom{
+	display: block;
+	margin-left: 5%;
+}
+.prenom input{
+	width: 100%;
+	height: 60%;
+	font-size: 18px;
+}
+.username{
+	margin-top: 5%;
+}
+.username input{
+	margin-bottom: 0;
+	margin-top: 2%;
+}
+.birthdate{
+	margin-top: 5%;
+}
+.birthdate input{
+	margin-top: 2%;
+}
+.phone input{
+	margin-top: 2%;
+}
+.divbutton{
+	display: flex;
+	width: auto;
+}
+.divbutton button{
+	text-align: center;
+	width: 15%;
+	background: #6a6a6a;
+	color: #fefefe;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: 0.2s;
+	border: none;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10%;
+	letter-spacing: 1px;
+	margin-right: 0;
+}
+.divbutton button:hover{
+	transition: 0.3s;
+	background: #3E5B25;
+	cursor: pointer;
+}
+#retourone, #retourtwo{
+	background: #adadad;
+}
+.finish{
+	height: 100vh;
+	width: 75%;
+	transition: 0.5s;
+	background: #fefefe;
+	font-family: 'Montserrat', sans-serif;
+	display: none;
+}
+.finish p{
+	margin-left: 10%;
+	font-size: 18px;
+}
+.finish p a{
+	text-decoration: none;
+	color: #2A611D;
+}	
+}
